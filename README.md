@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7f1c50cbe74895e31c7a3f5b51661b500af723ec2b54b98f65705941fa7a1ca3
-size 406
+# A Traveling Fox
+
+Project Mini Game for Master DCIT at Stockholm's University.
+
+## Team Libra
+
+Maria Dodieva
+William Berruyer
+
+
+### Installing
+
+Link to ich.io to play the game online
+
+## The Game
+
+A Traveling Fox is a game where you play a fox and you need to cross as many roads as possible without getting hit by cars !
+
+### Tools used
+
+- [Unity 2021]
+- [Visual Studio 2022]
+- [C#]
