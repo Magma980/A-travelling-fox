@@ -18,6 +18,6 @@ A Traveling Fox is a game where you play a fox and you need to cross as many roa
 
 ### Tools used
 
-- [Unity 2021]
-- [Visual Studio 2022]
-- [C#]
+- Unity 2021
+- Visual Studio 2022
+- C#
