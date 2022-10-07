@@ -1,22 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class FollowPlayer : MonoBehaviour
-{
-    public GameObject player;
-    private Vector3 offset;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        offset = transform.position - player.transform.position;
-    }
-
-    // Update is called once per frame
-    void LateUpdate()
-    {
-        // Offset the camera behind the player by adding to the player's position
-        transform.position = player.transform.position + offset;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b23a72f95e14e69c69876d4c90db7253894181f9d007111ecadf621ee58f244
+size 492

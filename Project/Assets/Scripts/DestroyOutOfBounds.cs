@@ -1,35 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class DestroyOutOfBounds : MonoBehaviour
-{
-    private float rightBound = 110;
-    private float leftBound = -70;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-            //If an object goes past the players view in the game, remove that object
-            if (transform.position.z > rightBound)
-            {
-                Destroy(gameObject);
-            }
-
-            //If an object goes past the players view in the game, remove that object
-            else if (transform.position.z < leftBound)
-            {
-                Destroy(gameObject);
-            }
-
-        
-
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7c87b2c531dd1d27847d649747e20526c3e431fe8a45cf2b422b734cf69f09c
+size 770

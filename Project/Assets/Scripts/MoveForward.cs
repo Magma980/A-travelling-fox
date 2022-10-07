@@ -1,21 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class MoveForward : MonoBehaviour
-{
-    public float speed = 40.0f;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        // Can do here or Edit->Project Settings->Physics->Collision Matrix and remove the check box for Cars-Powerup
-        // Physics.IgnoreLayerCollision(3, 6);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        transform.Translate(speed * Time.deltaTime * Vector3.forward);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f062755e0ea9017e94e808c818e3711c277fefb03ee2063d22871a17f433bb3
+size 400
